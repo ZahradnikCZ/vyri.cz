@@ -1,7 +1,8 @@
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
+  display: block;
 }
 .navbar-brand img {
   border-radius: 50%;
@@ -33,4 +34,24 @@
   background-repeat: no-repeat;
   background-color: #ffffff;
   
+}
+.row {
+  position: relative;
+  top: 50px;
+}
+.card1 {
+  width: 50%;
+  margin: 0 left;
+}
+.card2 {
+  width: 50%;
+  margin: 0 right;
+}
+.card2-img {
+  position: relative;
+  left: 40%;
+  top: 50px;
+  width: 50%;
+  border: #ffffff solid 2px;
+  border-radius: 10%;
 }
