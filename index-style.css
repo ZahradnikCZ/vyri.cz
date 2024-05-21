@@ -1,4 +1,36 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
 .navbar-brand img {
   border-radius: 50%;
   width: 50px;
+  height: 50px;
+}
+.navbar-light {
+  background-color: #575151;
+}
+.navbar-text {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  left: -550px;
+  top: 0px;
+}
+.uvod {
+  font-size: 15px;  
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  background-size: 0px;
+}
+.uvod:hover {
+  color: #000000;
+  text-decoration: none;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  
 }
