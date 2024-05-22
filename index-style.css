@@ -3,6 +3,7 @@
   top: 0;
   width: 100%;
   display: block;
+  z-index: 1000;
 }
 .navbar-brand img {
   border-radius: 50%;
@@ -37,21 +38,22 @@
 }
 .row {
   position: relative;
-  top: 50px;
+  top: 100px;
 }
 .card1 {
   width: 50%;
   margin: 0 left;
 }
-.card2 {
-  width: 50%;
-  margin: 0 right;
-}
-.card2-img {
-  position: relative;
-  left: 40%;
-  top: 50px;
-  width: 50%;
-  border: #ffffff solid 2px;
-  border-radius: 10%;
+footer { 
+  background-color: #575151;
+} /*barva dolního panelu*/
+footer .footertext{
+  color: #ffffff; background-color:#575151; background-size: 0%; font-size: 10px;
+} /*barva textu v dolním panelu*/
+.stickyfooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  z-index: 1000;
 }
