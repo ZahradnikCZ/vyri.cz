@@ -1,0 +1,93 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    z-index: 1000;
+  }
+  .navbar-brand img {
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    border: #ffffff solid 2px;
+    width: 50px;
+    height: 50px;
+  }
+  .navbar-light {
+    background-color: #575151;
+  }
+  .navbar-text {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    font-style: normal;
+  }
+  .uvod {
+    font-size: 15px;  
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-size: 0px;
+    margin: 0 right;
+  }
+  .uvod:hover {
+    color: #000000;
+    text-decoration: none;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;  
+  }
+  .onas {
+    font-size: 15px;  
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-size: 0px;
+    margin: 0 right;
+  }
+  .onas:hover {
+    color: #000000;
+    text-decoration: none;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;  
+  }
+  .login {
+    font-size: 15px;  
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-size: 0px;
+    margin: 0 right;
+  }
+  .login:hover {
+    color: #000000;
+    text-decoration: none;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;  
+  }
+  footer { 
+    background-color: #575151;
+    z-index: 1000;
+  } /*barva dolního panelu*/
+  footer .footertext{
+    color: #ffffff;
+    background-color:#575151;
+    background-size: 0%;
+    font-size: 10px;
+    text-decoration: none;
+  } /*barva textu v dolním panelu*/
+  .stickfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    z-index: 1000;
+  }
+  .row {
+    position: relative;
+    top: 100px;
+  }

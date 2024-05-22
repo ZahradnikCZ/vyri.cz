@@ -6,6 +6,8 @@
   z-index: 1000;
 }
 .navbar-brand img {
+  position: relative;
+  left: 10px;
   border-radius: 50%;
   border: #ffffff solid 2px;
   width: 50px;
@@ -19,7 +21,8 @@
   font-size: 20px;
   text-decoration: none;
   position: absolute;
-  left: 200px;
+  left: 50px;
+  font-style: normal;
 }
 .uvod {
   font-size: 15px;  
@@ -27,8 +30,39 @@
   font-style: normal;
   text-decoration: none;
   background-size: 0px;
+  margin: 0 right;
 }
 .uvod:hover {
+  color: #000000;
+  text-decoration: none;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;  
+}
+.onas {
+  font-size: 15px;  
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  background-size: 0px;
+  margin: 0 right;
+}
+.onas:hover {
+  color: #000000;
+  text-decoration: none;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;  
+}
+.login {
+  font-size: 15px;  
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+  background-size: 0px;
+  margin: 0 right;
+}
+.login:hover {
   color: #000000;
   text-decoration: none;
   background-size: 400px 400px;

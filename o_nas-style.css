@@ -1,0 +1,113 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    z-index: 1000;
+  }
+  .navbar-brand img {
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    border: #ffffff solid 2px;
+    width: 50px;
+    height: 50px;
+  }
+  .navbar-light {
+    background-color: #575151;
+  }
+  .navbar-text {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    font-style: normal;
+  }
+  .uvod {
+    position: relative;
+    right: auto;
+    font-size: 15px;  
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-size: 0px;
+
+  }
+  .uvod:hover {
+    color: #000000;
+    text-decoration: none;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;  
+  }
+  .onas {
+    position: relative;
+    right: auto;
+    font-size: 15px;  
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-size: 0px;
+  }
+.onas:hover {
+    color: #000000;
+    text-decoration: none;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+.login {
+    position: relative;
+    right: auto;
+    font-size: 15px;  
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-size: 0px;
+  }
+.login:hover:hover {
+    color: #000000;
+    text-decoration: none;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+/* ovládání menu na pravé straně */
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .menu {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    position: relative;
+    top: 100px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .menu a:hover {
+    color: #23527c;
+  }
